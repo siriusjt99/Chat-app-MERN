@@ -1,0 +1,28 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+  
+}
+.chat__header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.chat__headerinfo{
+    flex: 1;
+    padding-left: 20;
+}
+.chat__headerinfo>h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+    
+}
+.chat__headerinfo> p {
+    color: gray;
+}
+.chat__body{
+    flex: 1;
+    background-image:url("chat-app bg.png");
+
+}

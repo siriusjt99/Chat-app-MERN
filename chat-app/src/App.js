@@ -5,9 +5,9 @@ import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Let's Build a chat app</h1>
-      <div app__bodyP >
+    <div className="app">
+      {/* <h1>Let's Build a chat app</h1> */}
+      <div className='app__body' >
       
 
      <Sidebar/> {/* Sidebar */}
